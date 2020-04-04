@@ -18,15 +18,15 @@
             </div>
 
             <div class="pt-4 font-weight-bold">
-                freeInstagramCode.org
+                {{$user->profile->title}}
             </div>
 
             <div>
-                This is a clone of Instagram with de only proporse to learn who to programme a website.
+                {{$user->profile->description}}
             </div>
 
             <div>
-                <a href="#">www.instagramClone.org</a>
+                <a href="#">{{$user->profile->url ?? 'N/A'}}</a>
             </div>
         </div>
     </div>
